@@ -1,0 +1,77 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background: #FAEBD7;
+    margin: 2%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.title {
+    color: #4B0082;
+    background-image: url(rs_school_js.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.accent {
+    background: #FFFF00;
+    display: inline-block;
+}
+.cont {
+    position: absolute;
+    right: 6.5%;
+    text-align: center;
+    bottom: 7%;
+}
+
+ul {
+    font-size: 1.25em; 
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 900;
+    color: #0000CD;
+}
+
+h3 {
+    color: #696969;
+}
+
+.acc {
+    color: #00BFFF;
+}
+
+.photo {
+    position: absolute;
+    right: 2%;
+}
+
+@media (min-width: 2560px) {
+    .cont {
+        right: 5%;
+        bottom: 23%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .cont {
+        right: 10%;
+        bottom: 12%;
+    }
+
+    h3 {
+        font-size: 0.8em;
+    }
+
+    ul {
+        font-size: 0.8em; 
+    }
+
+    .title {
+        background-size: 25%;
+    }
+}
