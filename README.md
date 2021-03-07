@@ -1,2 +1,1 @@
-# rsschool-cv
- 
+# [Kwer](https://JustKwer.github.io/rsschool-cv/cv)
