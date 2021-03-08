@@ -19,7 +19,7 @@ body {
 }
 .cont {
     position: absolute;
-    right: 6.5%;
+    right: 8%;
     text-align: center;
     bottom: 7%;
 }
@@ -52,26 +52,28 @@ h3 {
 
 @media (min-width: 2560px) {
     .cont {
-        right: 5%;
-        bottom: 23%;
+        right: 7%;
+        bottom: 17%;
     }
 }
 
 @media (max-width: 1440px) {
     .cont {
-        right: 10%;
+        right: 14%;
         bottom: 12%;
     }
 
     h3 {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     ul {
-        font-size: 0.8em; 
+        font-size: 0.7em; 
     }
 
     .title {
         background-size: 25%;
+        background-size: 15em;
     }
+    
 }
